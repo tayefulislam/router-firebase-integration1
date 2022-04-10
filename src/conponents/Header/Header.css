@@ -1,4 +1,5 @@
-.header a {
+.header a,
+span {
     text-decoration: none;
     color: black;
     margin-left: 20px;
@@ -6,5 +7,9 @@
 }
 
 .header a:hover {
+    color: orangered;
+}
+
+.header span:hover {
     color: orangered;
 }

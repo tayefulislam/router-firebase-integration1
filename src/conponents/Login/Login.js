@@ -7,7 +7,7 @@ const Login = () => {
     return (
         <div>
 
-            <h1>This Is Login {user.displayName}</h1>
+            <h1>This Is Login {user?.displayName}</h1>
             <div style={{ margin: '20px' }}>
                 <button onClick={signInWithGoogle}>Sign In With Google</button>
             </div>
